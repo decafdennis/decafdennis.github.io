@@ -1,1 +1,33 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>decafdennis.me</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      max-width: 30em;
+      margin: 1em auto;
+      padding: 1em;
+      font-family: 'Merriweather', 'Georgia', serif;
+      font-size: 1.2em;
+      line-height: 1.5;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>decafdennis.me</h1>
+  <p>Dennis Stevense</p>
+  <p>Software Engineer</p>
+  <p>Vinyasa Yoga Teacher</p>
+  <p>Developer of <a href="trein.html">Trein</a></p>
+  <p><a id="email" href="#">Send me an email</a></p>
+  <script>
+    var email = document.getElementById('email');
+    function decodeEmail() { email.setAttribute('href','znvygb:qrpnsqraavf@tznvy.pbz'.replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);})); }
+    email.addEventListener('mouseenter', decodeEmail);
+    email.addEventListener('focus', decodeEmail);
+  </script>
+</body>
+</html>
