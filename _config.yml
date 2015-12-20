@@ -1,0 +1,8 @@
+title: decafdennis.me
+baseurl: /
+safe: true
+whitelist:
+  - jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
+markdown: kramdown

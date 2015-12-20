@@ -1,0 +1,17 @@
+---
+---
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
+
+body {
+  max-width: 30em;
+  margin: 1em auto;
+  padding: 1em;
+  font-family: 'Merriweather', 'Georgia', serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+
+  &.layout-centered {
+    text-align: center;
+  }
+}
